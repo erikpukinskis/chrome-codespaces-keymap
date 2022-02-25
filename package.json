@@ -9,6 +9,11 @@
     "categories": [
         "Keymaps"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/erikpukinskis/chrome-codespaces-keymap.git"
+    },
+    "license": "MIT",
     "contributes": {
         "keybindings": [
             {
