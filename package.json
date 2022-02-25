@@ -8,6 +8,7 @@
     "name": "Erik Pukinskis",
     "url": "https://snowedin.net"
   },
+  "publisher": "erikpukinskis",
   "engines": {
     "vscode": "^1.64.0"
   },
@@ -23,11 +24,15 @@
     "keybindings": [
       {
         "key": "cmd+ctrl+left",
-        "command": "workbench.action.nextEditor"
+        "command": "workbench.action.previousEditor"
       },
       {
         "key": "cmd+ctrl+right",
-        "command": "workbench.action.previousEditor"
+        "command": "workbench.action.nextEditor"
+      },
+      {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
       }
     ]
   },
