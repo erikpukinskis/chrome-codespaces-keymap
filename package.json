@@ -12,8 +12,12 @@
     "contributes": {
         "keybindings": [
             {
-                "key": "ctrl+.",
-                "command": "workbench.action.showCommands"
+                "key": "cmd+ctrl+left",
+                "command": "workbench.action.nextEditor"
+            },
+            {
+                "key": "cmd+ctrl+right",
+                "command": "workbench.action.previousEditor"
             }
         ]
     }
