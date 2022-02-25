@@ -1,0 +1,20 @@
+{
+    "name": "chrome-codespaces-keymap",
+    "displayName": "Chrome Codespaces Keymap",
+    "description": "Keybindings that work in a Chrome tab",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+.",
+                "command": "workbench.action.showCommands"
+            }
+        ]
+    }
+}
