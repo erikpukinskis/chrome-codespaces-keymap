@@ -3,6 +3,10 @@
   "displayName": "Chrome Codespaces Keymap",
   "description": "Keybindings that work in a Chrome tab",
   "version": "0.0.1",
+  "author": {
+    "name": "Erik Pukinskis",
+    "url": "https://snowedin.net"
+  },
   "engines": {
     "vscode": "^1.64.0"
   },
