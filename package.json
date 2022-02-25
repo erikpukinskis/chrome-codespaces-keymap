@@ -1,29 +1,36 @@
 {
-    "name": "chrome-codespaces-keymap",
-    "displayName": "Chrome Codespaces Keymap",
-    "description": "Keybindings that work in a Chrome tab",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.64.0"
-    },
-    "categories": [
-        "Keymaps"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/erikpukinskis/chrome-codespaces-keymap.git"
-    },
-    "license": "MIT",
-    "contributes": {
-        "keybindings": [
-            {
-                "key": "cmd+ctrl+left",
-                "command": "workbench.action.nextEditor"
-            },
-            {
-                "key": "cmd+ctrl+right",
-                "command": "workbench.action.previousEditor"
-            }
-        ]
-    }
+  "name": "chrome-codespaces-keymap",
+  "displayName": "Chrome Codespaces Keymap",
+  "description": "Keybindings that work in a Chrome tab",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikpukinskis/chrome-codespaces-keymap.git"
+  },
+  "license": "MIT",
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "cmd+ctrl+left",
+        "command": "workbench.action.nextEditor"
+      },
+      {
+        "key": "cmd+ctrl+right",
+        "command": "workbench.action.previousEditor"
+      }
+    ]
+  },
+  "scripts": {
+    "confgen": "npx confgen codespaces prettier",
+    "fix:format": "prettier --write --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
