@@ -9,3 +9,4 @@ The **erikpukinsis/chrome-codespaces-keymap** extension provides alternate keybi
 | <kbd>option</kbd>+<kbd>ctrl</kbd>+<kbd>left</kbd>  | previous tab       | <kbd>option</kbd>+<kbd>cmd</kbd>+<kbd>left</kbd>  | previous tab       |
 | <kbd>option</kbd>+<kbd>ctrl</kbd>+<kbd>right</kbd> | next tab           | <kbd>option</kbd>+<kbd>cmd</kbd>+<kbd>right</kbd> | next tab           |
 | <kbd>ctrl</kbd>+<kbd>w</kbd>                       | close current tab  | <kbd>cmd</kbd>+<kbd>w</kbd>                       | next tab           |
+| <kbd>ctrl</kbd>+<kbd>cmd</kbd>+<kbd>t</kbd>        | reopen closed tab  | <kbd>cmd</kbd>+<kbd>w</kbd>                       | reopen closed tab  |
