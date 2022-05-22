@@ -12,4 +12,5 @@ The **erikpukinsis/chrome-codespaces-keymap** extension provides alternate keybi
 | <kbd>ctrl</kbd>+<kbd>cmd</kbd>+<kbd>t</kbd>        | reopen closed tab  | <kbd>cmd</kbd>+<kbd>w</kbd>                       | reopen closed tab  |
 
 ### Todo
-* <kbd>cmd</kbd>+<kbd>n</kbd>
+* <kbd>cmd</kbd>+<kbd>n</kbd> — new file
+* <kbd>cmd</kbd>+<kbd>shift</kbd>t<kbd>n</kbd> — reopen last closed file
